@@ -1,0 +1,12 @@
+package com.yourname.supply;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SupplyDepletionApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SupplyDepletionApplication.class, args);
+    }
+}
